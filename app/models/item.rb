@@ -1,3 +1,5 @@
+class Item < ApplicationRecord
+end
 # == Schema Information
 #
 # Table name: items
