@@ -1,6 +1,8 @@
 <h1>Add a new item</h1>
 
 <form action="/insert_item" method="post">
+<input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+
   <div>
     <label for="link_url_box">
       Link URL 
